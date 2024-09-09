@@ -32,7 +32,8 @@ This file contains the predicted digits for each test image (`test.csv`), follow
 
 1. Clone the repository to your local machine:
   ```bash
-  https://github.com/masheharashid/numeric_character_recognition.git
+  git clone https://github.com/masheharashid/numeric_character_recognition.git
+  cd numeric_character_recognition
   ```
 
 
