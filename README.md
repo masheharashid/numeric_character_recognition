@@ -36,4 +36,40 @@ This file contains the predicted digits for each test image (`test.csv`), follow
   cd numeric_character_recognition
   ```
 
+## Running the Notebook
 
+1. **Launch the Jupyter Notebook Interface**
+- Open the terminal and navigate to the project directory. Then, launch the Jupyter Notebook interface and open the Python notebook file
+
+   ```bash
+  jupyter notebook ncr_final_version.ipynb
+  ```
+   
+2. Follow the instructions in the notebook and run each cell in order
+
+## Running on Google Colab
+
+**Option 1**:
+- Click on the "Open in Colab" button at the top of the `ncr_final_version.ipynb` file or go to this [link](https://colab.research.google.com/github/masheharashid/numeric_character_recognition/blob/master/ncr_final_version.ipynb)
+
+**Option 2**: 
+1. Upload the Notebook
+- Open [Google Colab](https://colab.google/)
+- Upload the `ncr_final_version.ipynb` file
+
+2. **Mount the Google Drive (Optional)**
+- If the NCR files are stored in Google Drive, mount the drive to access them:
+
+    ```python
+    from google.colab import drive
+    drive.mount('/content/drive')
+    ```
+
+3. **Run the Notebook**
+- Execute the cells in order as instructed in the notebook
+
+## Citation 
+
+Akaash Tripathi. (2024). Numeric Character Recognition (NCR). Kaggle. https://kaggle.com/competitions/ncr
+
+  
